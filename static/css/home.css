@@ -218,4 +218,16 @@ body {
     margin-top: 0;
     color: #1508c4;
   }
+  .main__content img{
+    float: left;
+  }
+  
+  .video_container iframe{
+    max-height: 250px;
+    width: relative;
+    position: absolute;
+    bottom: 1fr;
+    right: 0.5fr;
+    margin-right: 20px;
+  }
   

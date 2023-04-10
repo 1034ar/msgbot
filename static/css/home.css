@@ -224,10 +224,11 @@ body {
   
   .video_container iframe{
     max-height: 250px;
+    top: 0.5fr;
     width: relative;
     position: absolute;
     bottom: 1fr;
-    right: 0.5fr;
-    margin-right: 20px;
+    right: 10%;
+    left: 1 fr;
   }
   

@@ -223,20 +223,24 @@ body {
   }
   
   .video_container iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     max-height: 250px;
     top: 0.5fr;
     width: relative;
     position: absolute;
     bottom: 1fr;
-    right: 10%;
+    right: 15%;
     left: 1 fr;
   }
   .video_container_2 iframe{
     max-height: 250px;
-    margin-top: 10%;
+    margin-top: 20%;
     width: relative;
     position: absolute;
     bottom: 1fr;
-    right: 10%;
+    right: 15%;
     left: 1 fr;
   }
